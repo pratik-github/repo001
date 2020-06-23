@@ -1,6 +1,6 @@
 {
   "name": "my-package-001",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "hi.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pratik-github/repo001/issues"
   },
-  "homepage": "https://github.com/pratik-github/repo001#readme"
+  "homepage": "https://github.com/pratik-github/repo001#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@pratik-github"
+  }
 }
