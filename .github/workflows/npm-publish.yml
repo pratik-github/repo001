@@ -1,4 +1,5 @@
 # https://github.com/marketplace/actions/publish-to-npm
+# https://github.com/actions/setup-node/issues/52
 name: npm-publish
 on:
   push:
@@ -12,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/@pratik-github
+          registry-url: https://registry.npmjs.org/
       - run: yarn install
       - run: npm publish --access public
         env:
