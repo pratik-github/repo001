@@ -1,5 +1,6 @@
 # https://github.com/marketplace/actions/publish-to-npm
 # https://github.com/actions/setup-node/issues/52
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
 name: npm-publish
 on:
   push:
